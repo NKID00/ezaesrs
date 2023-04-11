@@ -1,0 +1,13 @@
+[package]
+name = "ezaesrs"
+version = "0.1.0"
+edition = "2021"
+authors = ["NKID00 <this@nkid00.name>"]
+description = "A tool to encrypt things easily."
+homepage = "https://github.com/NKID00/ezaesrs"
+
+[dependencies]
+aes = "0.8.2"
+clap = { version = "4.2.1", features = ["cargo"] }
+ctrlc = "3.2.5"
+human-panic = "1.1.3"
