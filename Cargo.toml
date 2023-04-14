@@ -8,6 +8,10 @@ homepage = "https://github.com/NKID00/ezaesrs"
 
 [dependencies]
 aes = "0.8.2"
+anyhow = "1.0.70"
+base64 = "0.21.0"
+cbc = { version = "0.1.2", features = ["std"] }
 clap = { version = "4.2.1", features = ["cargo"] }
 ctrlc = "3.2.5"
 human-panic = "1.1.3"
+rand = "0.8.5"
